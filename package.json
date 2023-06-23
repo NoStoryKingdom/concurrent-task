@@ -1,0 +1,28 @@
+{
+  "name": "concurrent-task",
+  "version": "1.0.0",
+  "description": "Run multiple async tasks with limited concurrency",
+  "main": "lib/concurrentTask.js",
+  "files": [
+    "LICENSE",
+    "lib"
+  ],
+  "scripts": {
+    "prettier": "prettier --write 'lib/*.js'"
+  },
+  "repository": "git@github.com:nostorykingdom/concurrent-task.git",
+  "keywords": [
+    "concurrency",
+    "promise"
+  ],
+  "author": "Robert <nostorykingdom@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.43.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8"
+  }
+}
